@@ -6,7 +6,7 @@ const {
   updatePost,
   deletePost,
 } = require('../controllers/postController');
-const auth = require('../middleware/authMiddleware'); // Assuming 'auth' is your authentication/authorization middleware
+const auth = require('../middleware/authMiddleware'); 
 
 // Get all posts
 route.get('/', getPost);

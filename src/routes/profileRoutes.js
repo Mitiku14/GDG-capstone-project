@@ -10,4 +10,4 @@ router.get('/', auth, getUserProfile);
 // Update user profile (requires authorization)
 router.put('/', auth, updateUserProfile);
 
-module.exports = router;  // Corrected module.exports
+module.exports = router;  
